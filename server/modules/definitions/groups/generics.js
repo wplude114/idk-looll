@@ -1,6 +1,13 @@
 const { skillSet } = require('../facilitators.js');
 const { base, statnames, dfltskl, smshskl } = require('../constants.js');
 
+//base
+// SHAPE: [[-1.5,-1],[0,-1.2],[1.5,-1],[1.5,1],[0,1.2],[-1.5,1]]
+//treads
+// SHAPE: [[-1.3,-1.2],[1.3,-1.2],[1.3,1.2],[-1.3,1.2]]
+
+
+
 Class.genericEntity = {
     NAME: "",
     LABEL: "Unknown Entity",
