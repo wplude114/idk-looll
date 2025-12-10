@@ -2016,8 +2016,8 @@ function drawLeaderboard(spacing, alcoveSize, max) {
 function drawAvailableUpgrades(spacing, alcoveSize) {
     // Draw upgrade menu
     if (gui.upgrades.length > 0) {
-        let internalSpacing = 15;
-        let len = alcoveSize / 2;
+        let internalSpacing = 50;
+        let len = alcoveSize / 2.5;
         let height = len;
 
         // Animation processing
@@ -2082,7 +2082,7 @@ function drawAvailableUpgrades(spacing, alcoveSize) {
         // Draw dont upgrade button
         let h = 16,
             textScale = h - 6,
-            msg = "Don't Upgrade",
+            msg = "Hide Upgrades",
             m = measureText(msg, textScale) + 10;
         let buttonX = initialX + (rowWidth + len - initialX) / 2,
             buttonY = initialY + height + internalSpacing;
